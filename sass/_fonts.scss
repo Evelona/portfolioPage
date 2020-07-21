@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Heebo Medium';
+	src: url('../fonts/');
+	src: url('../fonts/?#iefix') format('embedded-opentype'),
+	url('../fonts/Heebo-Medium.woff') format('woff'),
+	url('../fonts/Heebo-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Heebo Regular';
+	src: url('../fonts/Heebo-Regular.eot');
+	src: url('../fonts/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Heebo-Regular.woff') format('woff'),
+	url('../fonts/Heebo-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin regular {
+	font-family: 'Heebo Regular', sans-serif;
+}
+
+@mixin medium {
+	font-family: 'Heebo Medium', sans-serif;
+}
