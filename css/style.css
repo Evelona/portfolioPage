@@ -30,6 +30,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Heebo Regular', sans-serif;
 }
@@ -66,15 +74,15 @@ body {
 
 .column-1__separator {
   width: 4px;
-  height: 481.5px;
+  height: 501.5px;
   background-color: #CDCDCD;
-  margin: 57px 0 0 347px;
+  margin: 43px 0 0 347px;
 }
 
 .developer {
   position: absolute;
   left: -152px;
-  top: 597px;
+  top: 599px;
 }
 
 .designer {
@@ -90,7 +98,7 @@ body {
 
 .column-2__about {
   margin: 0 0 52px 0;
-  color: #B8A4A4;
+  color: #CDCDCD;
   white-space: pre-line;
 }
 
@@ -99,5 +107,107 @@ body {
   background-size: cover;
   width: 800px;
   height: 867px;
+}
+
+.contacts {
+  padding-top: 105px;
+  color: #6D6262;
+  font-size: 25px;
+}
+
+.contacts__title {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #1B1717;
+}
+
+.contacts__name, .contacts__country, .contacts__number {
+  font-family: 'Montserrat Regular', sans-serif;
+  padding-bottom: 8px;
+}
+
+.contacts__email {
+  font-family: 'Montserrat Regular', sans-serif;
+  color: #1B1717;
+  padding-top: 15px;
+}
+
+.social {
+  padding-top: 67px;
+  color: #6D6262;
+}
+
+.social__title {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #1B1717;
+}
+
+.social__telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.social__telegram-icon {
+  width: 30px;
+  height: 30px;
+  background: url("../svg/telegram.svg") no-repeat center;
+}
+
+.social__telegram-label {
+  font-size: 25px;
+  font-family: 'Montserrat Regular', sans-serif;
+  margin-left: 13px;
+}
+
+.social__inst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.social__inst-icon {
+  width: 30px;
+  height: 30px;
+  background: url("../svg/instagram.svg") no-repeat center;
+}
+
+.social__inst-label {
+  font-size: 25px;
+  font-family: 'Montserrat Regular', sans-serif;
+  margin-left: 13px;
+}
+
+.social__vk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.social__vk-icon {
+  width: 30px;
+  height: 30px;
+  background: url("../svg/vk.svg") no-repeat center;
+}
+
+.social__vk-label {
+  font-size: 25px;
+  font-family: 'Montserrat Regular', sans-serif;
+  margin-left: 13px;
 }
 /*# sourceMappingURL=style.css.map */
